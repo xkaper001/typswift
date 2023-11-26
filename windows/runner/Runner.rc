@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.xkaper" "\0"
-            VALUE "FileDescription", "vtop" "\0"
+            VALUE "FileDescription", "Typswift" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "vtop" "\0"
+            VALUE "InternalName", "Typswift" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.xkaper. All rights reserved." "\0"
-            VALUE "OriginalFilename", "vtop.exe" "\0"
-            VALUE "ProductName", "vtop" "\0"
+            VALUE "OriginalFilename", "Typswift.exe" "\0"
+            VALUE "ProductName", "Typswift" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,4 +1,3 @@
-
 // packages include flutter_riverpod, go_router, appwrite, etc...
 
 // Todos
@@ -9,11 +8,10 @@
 // 4. Update Windoes App details in "windows/runner/Runner.rc"
 // 5. Update Linux App details in "linux/CMakeLists.txt"
 
-
 import 'package:flutter/material.dart';
-import 'package:vtop/responsive/responsive_layout.dart';
+import './responsive/responsive_layout.dart';
 import './responsive/mobile_scaffold.dart';
-import 'responsive/tablet_scaffold.dart';
+import './responsive/tablet_scaffold.dart';
 import './responsive/desktop_scaffold.dart';
 
 void main() {
