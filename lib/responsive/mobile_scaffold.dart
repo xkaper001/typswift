@@ -6,10 +6,12 @@ class MobileScaffold extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: OnboardingColumn.nonDesktopColumn(),
-      // enter mobile body here
-      // switch case based on user login or first time usage.
+    return SafeArea(
+      child: Scaffold(
+        body: OnboardingUI.mobile(context),
+        // enter mobile body here
+        // switch case based on user login or first time usage.
+      ),
     );
   }
 }

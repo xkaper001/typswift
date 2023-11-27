@@ -6,9 +6,11 @@ class TabletScaffold extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: OnboardingColumn.desktopColumn(),
-      // enter Tablet body here
+    return SafeArea(
+      child: Scaffold(
+        body: OnboardingUI.mobile(context),
+        // enter Tablet body here
+      ),
     );
   }
 }

@@ -6,9 +6,11 @@ class DesktopScaffold extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: OnboardingColumn.desktopColumn(),
-      // enter desktop scaffold here
+    return SafeArea(
+      child: Scaffold(
+        body: OnboardingUI.desktop(context),
+        // enter desktop scaffold here
+      ),
     );
   }
 }
