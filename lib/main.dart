@@ -1,5 +1,5 @@
 // packages include flutter_riverpod, go_router, appwrite, etc...
-
+import '';
 // Todos
 
 // 1. Update App details in Pubspec.yaml
@@ -12,10 +12,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:typswift/constants/palette.dart';
 
-import './responsive/responsive_layout.dart';
-import './responsive/mobile_scaffold.dart';
-import './responsive/tablet_scaffold.dart';
-import './responsive/desktop_scaffold.dart';
+import 'routes/router.dart';
 import 'style.dart';
 
 void main() {
@@ -37,13 +34,9 @@ class MainApp extends StatelessWidget {
         statusBarIconBrightness: Brightness.light
       )
     );
-    return MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      home: const ResponsiveLayout(
-        mobileScaffold: MobileScaffold(),
-        tabletScaffold: TabletScaffold(),
-        desktopScaffold: DesktopScaffold(),
-      ),
+      routerConfig: router,
       theme: AppStyle.themeData,
     );
   }

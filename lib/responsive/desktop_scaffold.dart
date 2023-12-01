@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:typswift/features/onboarding/interface.dart';
+import 'package:typswift/features/onboarding/onboarding_interface.dart';
 
 class DesktopScaffold extends StatelessWidget {
   const DesktopScaffold({super.key});
