@@ -16,6 +16,18 @@ class AppStyle {
       fontWeight: FontWeight.bold,
       color: Palette.black,
     ),
+    titleMedium: TextStyle(
+      fontSize: 22,
+      fontFamily: 'Relative',
+      fontWeight: FontWeight.bold,
+      color: Palette.black,
+    ),
+    titleSmall: TextStyle(
+      fontSize: 20,
+      fontFamily: 'Relative',
+      fontWeight: FontWeight.bold,
+      color: Palette.black,
+    ),
     headlineMedium: TextStyle(
       fontSize: 20,
       fontFamily: 'Relative',
@@ -26,6 +38,18 @@ class AppStyle {
       fontSize: 18,
       fontFamily: 'Relative',
       fontWeight: FontWeight.bold,
+      color: Palette.black,
+    ),
+    bodyMedium: TextStyle(
+      fontSize: 20,
+      fontFamily: 'Relative',
+      fontWeight: FontWeight.normal,
+      color: Palette.black,
+    ),
+    bodySmall: TextStyle(
+      fontSize: 18,
+      fontFamily: 'Relative',
+      fontWeight: FontWeight.normal,
       color: Palette.black,
     ),
     labelMedium: TextStyle(
