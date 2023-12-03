@@ -41,13 +41,13 @@ class AppStyle {
       color: Palette.black,
     ),
     bodyMedium: TextStyle(
-      fontSize: 20,
+      fontSize: 18,
       fontFamily: 'Relative',
       fontWeight: FontWeight.normal,
       color: Palette.black,
     ),
     bodySmall: TextStyle(
-      fontSize: 18,
+      fontSize: 16,
       fontFamily: 'Relative',
       fontWeight: FontWeight.normal,
       color: Palette.black,

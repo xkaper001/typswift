@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:go_router/go_router.dart';
-import 'package:typswift/routes/router.dart';
 
 import '../../common_widgets/components.dart';
 import '../../constants/assets.dart';
 import '../../constants/palette.dart';
 import '../../style.dart';
-import '../setup/local/local_setup_inteface.dart';
 
 class OnboardingUI {
   static const tagline = "Notes how you want them!";
@@ -153,7 +151,7 @@ Column nonDesktopColumn(BuildContext context) {
 Text tagline() {
   return Text(
     OnboardingUI.tagline,
-    style: AppStyle.textTheme.headlineMedium,
+    style: AppStyle.textTheme.headlineSmall,
   );
 }
 
@@ -162,7 +160,7 @@ Padding description() {
     padding: const EdgeInsets.all(8.0),
     child: Text(
       OnboardingUI.description,
-      style: AppStyle.textTheme.bodyMedium,
+      style: AppStyle.textTheme.bodySmall,
       textAlign: TextAlign.center,
     ),
   );
@@ -186,7 +184,7 @@ Widget localButton(context) {
     trailingIcon: Icons.lock_outline_rounded,
     textColor: Palette.white,
     onPressed: () {
-      GoRouter.of(context).go('/home');
+      GoRouter.of(context).go('/localSetup');
     },
   );
 }

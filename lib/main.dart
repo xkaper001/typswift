@@ -1,4 +1,6 @@
 // packages include flutter_riverpod, go_router, appwrite, etc...
+import 'package:sqflite/sqflite.dart';
+
 import '';
 // Todos
 
@@ -15,7 +17,7 @@ import 'package:typswift/constants/palette.dart';
 import 'routes/router.dart';
 import 'style.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations(
     [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown],
@@ -25,6 +27,7 @@ void main() {
 
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
+  
 
   @override
   Widget build(BuildContext context) {

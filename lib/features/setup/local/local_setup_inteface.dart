@@ -8,11 +8,13 @@ class LocalSetup extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: PageView(
-        children: const [
-          ConfigName()
-        ],
+    return SafeArea(
+      child: Scaffold(
+        body: PageView(
+          children: const [
+            ConfigName()
+          ],
+        ),
       ),
     );
   }

@@ -1,7 +1,8 @@
 import 'package:go_router/go_router.dart';
-import 'package:typswift/features/home/homescreen.dart';
-import 'package:typswift/responsive/responsive_layout.dart';
 
+import '../features/home/homescreen.dart';
+import '../features/setup/local/local_setup_inteface.dart';
+import '../responsive/responsive_layout.dart';
 import '../responsive/desktop_scaffold.dart';
 import '../responsive/mobile_scaffold.dart';
 import '../responsive/tablet_scaffold.dart';
@@ -19,4 +20,8 @@ final router = GoRouter(initialLocation: '/onboard', routes: [
     path: '/home',
     builder: (context, state) => const HomeScreen(),
   ),
-]);
+  GoRoute(
+    path: '/localSetup',
+    builder: (context, state) => const LocalSetup(),
+  ),
+],);
