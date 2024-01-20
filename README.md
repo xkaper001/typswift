@@ -1,10 +1,10 @@
 <img src="./assets/images/typswift_logo_white.jpg"/>
 
+<img align="right" width=400 src="./assets/images/AppIcon.jpg" /> 
+
 # Typswift
+Typswift is an application designed to give you flexibility and control over where you store your notes and tasks. It allows you to save your content locally or to the cloud - the choice is yours!
 
-TypSwift is an application designed to give you flexibility and control over where you store your notes and tasks. It allows you to save your content locally or to the cloud - the choice is yours!
-
-<img src="./assets/images/AppIcon.jpg" /> 
 
 ## Tagline
 
@@ -17,7 +17,7 @@ Notes how you want them!
 
 ## Screenshots
 
-Here are some screenshots of TypSwift on mobile and desktop:
+Here are some screenshots of Typswift on mobile and desktop:
 
 ### Mobile:
 <img src="./assets/images/mobile_screenshot_onboard.png" width=300>&nbsp;&nbsp;&nbsp;&nbsp;<img src="./assets/images/mobile_screenshot_onboard_name.png" width=300>
